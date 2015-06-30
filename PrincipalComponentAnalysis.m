@@ -2,7 +2,7 @@ function [eigenVector,newX,eigenValue] = PrincipalComponentAnalysis(X)
 %% this is the matlab implementation for Principal Component analysis
 
 % Input arguments: X input dataset 
-% Output arguments: 
+% Output arguments: eigenVector,newX,eigenValue
  % find the mean of the data in columns
  mu = mean(X);
  % centered data at mean
